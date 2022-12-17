@@ -12,7 +12,5 @@ if (empty($name)) || (empty($email)) || (empty($message))
 else
 {
     mail("ashgaming1980@gmail.com", "Contact Form Message", $message, "From: $name <$email>");
-    echo "<script type= 'text/javascript'>alert('Your Message is sent successfully')</script>";
-    window.history.log(-1);
 }
 ?>
